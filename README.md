@@ -210,7 +210,7 @@ We encourage contributions of all kinds, whether big or small. Your efforts help
 
 ### Contact
 
-Misha - [miksoft.pro](https://miksoft.pro)
+Kairos - [kair0s.xyz](https://kair0s.xyz)
 
 <p align="right">
   (<a href="#top">Back to top</a>)

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 
@@ -10,14 +9,12 @@ import { iconNames } from '@/components/icon/types'
 import Introduce from '@/components/introduce'
 import PageTransition from '@/components/page-transition'
 
-const GithubActivity = dynamic(() => import('@/components/github-activity'), { ssr: false })
-
 const MainPage: React.FC = () => (
     <>
         <NextSeo
-            title={'Hi, Im Misha - Programmer, Engineer and Dreamer'}
+            title={'Hi, Im Kairos - Front End Developer'}
             description={
-                'I am a software engineer specializing in frontend and backend development for scalable web applications. With extensive experience in application development, testing, and managing both development teams and projects, I am focused on delivering high-quality and efficient solutions.'
+                'Front-end developer with 3 years experience delivering responsive, user-focused web applicationsforglobal clients, Specialized in building modern interfaces using React, Next.js, Typescript, Javascript andTailwindCSS with a strong focus on clarity perfomance, and seamless user experience. Experience in translating client’s requiment to high-quality UI, and integrating FE applicationswithNode.js and Rest APIs, GraphQL. Experience in Web3 projects. Can manage client directly.'
             }
             openGraph={{
                 images: [
@@ -36,8 +33,6 @@ const MainPage: React.FC = () => (
             <Introduce />
 
             <About />
-
-            <GithubActivity />
 
             <section className={'footerLinks'}>
                 <Link

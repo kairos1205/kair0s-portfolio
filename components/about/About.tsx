@@ -1,9 +1,5 @@
 import React from 'react'
 
-import Image from 'next/image'
-
-import photo from './photo.jpg'
-
 import styles from './styles.module.sass'
 
 /**
@@ -19,19 +15,19 @@ export const About: React.FC = () => (
     <section className={styles.aboutSection}>
         <h2 className={'pageTitle'}>{'About me'}</h2>
         <div className={styles.aboutContainer}>
-            <Image
+            {/* <Image
                 src={photo}
                 alt={'Photo of me'}
-            />
+            /> */}
             <div>
                 <p>
                     {
-                        'Programming is both my profession and my hobby, which is why I truly enjoy my work as a developer. With over 19+ years of experience, I have the skills to tackle a wide range of challenges, from building interactive web applications to leading development teams.'
+                        'Front-end developer with 3 years experience delivering responsive, user-focused web applicationsforglobal clients, Specialized in building modern interfaces using React, Next.js, Typescript, Javascript andTailwindCSS with a strong focus on clarity perfomance, and seamless user experience.'
                     }
                 </p>
                 <p>
                     {
-                        'Outside of coding, my hobbies are a big part of my life. I’m an amateur astronomer and have built a fully automated remote observatory that I can control from anywhere in the world. I also love traveling, especially hiking and exploring nature with my family. My children are a constant source of inspiration, motivating me both in life and in work.'
+                        'Experience in translating client’s requiment to high-quality UI, and integrating FE applicationswithNode.js and Rest APIs, GraphQL. Experience in Web3 projects. Can manage client directly.'
                     }
                 </p>
             </div>

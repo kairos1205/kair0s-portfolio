@@ -13,7 +13,7 @@ const ProjectsPage: React.FC = () => (
         <NextSeo
             title={'My projects'}
             description={
-                'This section showcases a selection of my personal projects, which I actively maintain and develop. As a passionate software engineer with a deep interest in both astronomy and programming, these projects reflect the intersection of my hobbies and technical expertise. The majority of these applications are built using modern web technologies like Next.js and React.js, designed to be scalable, efficient, and user-friendly.'
+                'This section showcases a selection of my previous projects, which I developed. The majority of these applications are built using modern web technologies like Next.js and React.js, designed to be scalable, efficient, and user-friendly. Each project represents my commitment to continuous learning and experimentation with new tools and frameworks. Explore the projects below to see how my interests shape my development process.'
             }
             openGraph={{
                 images: [
@@ -33,7 +33,7 @@ const ProjectsPage: React.FC = () => (
                 <h1 className={'pageTitle'}>{'My projects'}</h1>
                 <p>
                     {
-                        'This section showcases a selection of my personal projects, which I actively maintain and develop. As a passionate software engineer with a deep interest in both astronomy and programming, these projects reflect the intersection of my hobbies and technical expertise. The majority of these applications are built using modern web technologies like Next.js and React.js, designed to be scalable, efficient, and user-friendly. Each project represents my commitment to continuous learning and experimentation with new tools and frameworks. Explore the projects below to see how my interests shape my development process.'
+                        'This section showcases a selection of my previous projects, which I developed. The majority of these applications are built using modern web technologies like Next.js and React.js, designed to be scalable, efficient, and user-friendly. Each project represents my commitment to continuous learning and experimentation with new tools and frameworks. Explore the projects below to see how my interests shape my development process.'
                     }
                 </p>
             </section>

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 type SkillItemType = {
     name: string
     level: number
@@ -14,19 +15,19 @@ export const data: SkillGroupType[] = [
         skills: [
             {
                 name: 'TypeScript',
-                level: 80
+                level: 90
             },
             {
                 name: 'React, Next.js',
                 level: 90
             },
             {
-                name: 'Redux',
-                level: 86
+                name: 'TailwindCSS',
+                level: 90
             },
             {
                 name: 'ESLint & Prettier',
-                level: 79
+                level: 85
             }
         ]
     },
@@ -35,36 +36,36 @@ export const data: SkillGroupType[] = [
         skills: [
             {
                 name: 'Node.js',
-                level: 70
+                level: 90
             },
             {
                 name: 'PHP',
-                level: 80
+                level: 60
             },
             {
                 name: 'Python',
-                level: 50
+                level: 80
             },
             {
-                name: 'SQL',
+                name: 'MongoDB',
                 level: 60
             }
         ]
     },
     {
-        group: 'Testing',
+        group: 'Web3',
         skills: [
             {
-                name: 'Playwright',
+                name: 'SolanaWeb3',
                 level: 70
             },
             {
-                name: 'Jest',
+                name: 'Ethers.js',
                 level: 80
             },
             {
-                name: 'RTL',
-                level: 80
+                name: 'Solidity',
+                level: 50
             }
         ]
     },
@@ -81,7 +82,7 @@ export const data: SkillGroupType[] = [
             },
             {
                 name: 'Linux',
-                level: 90
+                level: 85
             }
         ]
     }

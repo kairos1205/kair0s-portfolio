@@ -1,10 +1,10 @@
+/* eslint-disable simple-import-sort/imports */
 import { StaticImageData } from 'next/image'
 
-import asteroid from './images/asteroid.jpg'
-import geometki from './images/geometki.jpg'
-import space from './images/lookatstars.jpg'
-import meteo from './images/meteostation.jpg'
-import astro from './images/observatory.jpg'
+import wework from './images/wework.jpg'
+import chainpro from './images/chainpro.jpg'
+import techspecs from './images/techspecs.jpg'
+import armoredkingdom from './images/armoredkingdom.jpg'
 
 type ProjectType = {
     link: string
@@ -15,38 +15,30 @@ type ProjectType = {
 
 export const data: ProjectType[] = [
     {
-        image: geometki,
-        title: 'Interesting places and attractions',
-        link: 'https://geometki.com/',
+        image: techspecs,
+        title: 'TechSpecs',
+        link: 'https://techspecs.io/',
         description:
-            'This portal, built on a microservice architecture using Next.js, PHP, and MySQL, helps users discover and share interesting places. It features a user dashboard, map integration, and the ability to upload photos and comments. Users can contribute to existing places and engage with a gamified system of levels, experience points, and reputation, promoting an interactive community.'
+            'TechSpecs is an API-first platform that provides standardized, up-to-date technical specifications for consumer electronics products (smartphones, tablets, laptops, smartwatches, etc.). Developers and businesses can access product search, detail, brand, category endpoints via RESTful APIs to integrate specs into apps, comparisons, or eCommerce solutions.'
     },
     {
-        image: astro,
-        title: 'Homemade Observatory',
-        link: 'https://astro.miksoft.pro/',
+        image: chainpro,
+        title: 'ChainPro',
+        link: 'https://chainpro.xyz/',
         description:
-            'A fully automated homemade observatory integrated with an online service. It uses Raspberry Pi, Arduino, and Python for remote control, automation, and image analysis. The web service includes user authentication, real-time images, observatory data, and a calendar for celestial events, combining hardware and software for home-based astronomical exploration.'
+            'ChainPro is a secure, non-custodial, hedge fund-grade on-chain trading terminal built on Trusted Execution Environments, delivering real-time data, advanced order types, and pro-trading features across Solana, Base, Ethereum Mainnet, Hyperliquid, BNB, Abstract, and Arbitrum, and available on both web and mobile.'
     },
     {
-        image: meteo,
-        title: 'Arduino Weather Station',
-        link: 'https://meteo.miksoft.pro/',
-        description:
-            'An Arduino-based weather station that collects and uploads real-time data to a remote server. It features an API for accessing current and historical weather data, as well as forecasts. This station supports the observatory by providing environmental data, ensuring accurate weather monitoring for optimal operations.'
+        image: armoredkingdom,
+        title: 'Armored Kingdom',
+        link: 'https://armoredkingdom.com/',
+        description: 'Armored Kingdom is NFT near drop website. It was built on Near Blockchain.'
     },
     {
-        image: asteroid,
-        title: 'Asteroid Monitoring',
-        link: 'https://asteroid.miksoft.pro/',
+        image: wework,
+        title: 'We Work',
+        link: 'https://wework.co.jp/',
         description:
-            'Asteroid Monitoring is a system that fetches and displays real-time data about asteroids approaching Earth using the NASA NeoWS API. The application provides detailed information on each object, including: Time of close approach, Distance from Earth, Relative velocity, Estimated size range, Orbit visualization. It is designed to be user-friendly and informative, making complex data accessible to everyone.'
-    },
-    {
-        image: space,
-        title: 'Astronomical Project',
-        link: 'https://t.me/look_at_stars',
-        description:
-            'Focused on making astronomy accessible, this project shares engaging, science-based content via Telegram. It promotes space knowledge through articles, event updates, and visuals, making complex topics easy to understand. The goal is to inspire curiosity and contribute to the public’s appreciation for space and science.'
+            'WeWork Japan is the Japan arm of the global coworking and flexible office provider WeWork. The website showcases their flexible workspace solutions across Japan, including private offices, coworking spaces, dedicated desks, and enterprise-level custom workspace planning.'
     }
 ]

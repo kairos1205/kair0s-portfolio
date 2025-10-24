@@ -17,16 +17,17 @@ export const Frontend = {
 export type FrontendSkillsType = (typeof Frontend)[keyof typeof Frontend]
 
 export const Backend = {
-    Go: 'Go',
+    // Go: 'Go',
     PHP: 'PHP',
     Python: 'Python',
     NodeJS: 'NodeJS',
     MySQL: 'MySQL',
     PostgreSQL: 'PostgreSQL',
-    CodeIgniter: 'CodeIgniter',
-    Yii: 'Yii',
-    RestAPI: 'REST API',
-    Delphi: 'Borland Delphi'
+    // CodeIgniter: 'CodeIgniter',
+    CodeIgniter: 'Laravel',
+    // Yii: 'Yii',
+    RestAPI: 'REST API'
+    // Delphi: 'Borland Delphi'
 } as const
 
 export type BackendSkillsType = (typeof Backend)[keyof typeof Backend]
@@ -36,8 +37,9 @@ export const DevOps = {
     Docker: 'Docker',
     Jenkins: 'Jenkins',
     SonarQube: 'SonarQube',
-    Linux: 'Linux',
-    CentsOS: 'CentOS',
+    Ubuntu: 'Ubuntu',
+    // Linux: 'Linux',
+    // CentsOS: 'CentOS',
     GitHubActions: 'GitHub Actions'
 } as const
 

@@ -29,7 +29,7 @@ const Projects: React.FC = () => (
                             src={item.image}
                             alt={item.title}
                             width={176}
-                            height={176}
+                            height={130}
                         />
                     </Link>
 
