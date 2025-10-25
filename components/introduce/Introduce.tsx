@@ -81,7 +81,7 @@ export const Introduce: React.FC = () => {
         {
             icon: 'github',
             label: 'GitHub',
-            link: 'https://github.com/kairos1205'
+            link: 'https://github.com/kair0s-0x'
         },
         {
             icon: 'telegram',
